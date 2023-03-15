@@ -8,7 +8,7 @@ from .models import Loan, Users, Borrowers, Applications
 
 #create a view for base template
 def base_view(request):
-    return render(request, 'loan_back/base.html')
+    return render(request, 'loan_back/home.html')
 
 # create a view for the loan model
 def loan_view(request):
